@@ -1,0 +1,150 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,400i|Odibee+Sans&display=swap');
+@import url("components/banner.css");
+@import url("components/card.css");
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #EAF7FF;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+}
+ li, a{
+     font-family: 'Odibee Sans',sans-serif;
+     font-size: 1.5em;
+     text-decoration: underline;
+     list-style: none;
+ }
+ header{
+     display: flex;
+     flex-direction: column;
+ }
+  header h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+     display: block;
+     text-align: center;
+     margin: 10px;
+ }
+ .nav_bar ul{
+     display: flex;
+     justify-content: space-around;
+
+ }
+ .nav_bar li{
+     margin: 10px;
+     text-decoration: none;
+
+ }
+ .nav_bar a{
+     color: black;
+ }
+ .mission h2,h3{
+     text-align: center;
+     font-family: 'Josefin Sans', sans-serif;
+     margin: 10px;
+ }
+ .srv_header h2{
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 2em;
+ }
+ h3{
+     font-family: 'Josefin Sans', sans-serif;
+     font-style: italic;
+     font-weight: 300;
+     margin-bottom: 1.5em;
+ }
+ .srv img{
+     width: 200px;
+     height: auto;
+     border:0 solid;
+     border-radius: 50px;
+ }
+ .srv h4{
+     margin-left: 15px;
+     font-family: 'Josefin Sans', sans-serif;
+
+     font-weight: 300;
+     margin-bottom: 1.5em;
+ }
+ .srv img{
+     margin-bottom: 15px;
+ }
+ .team img{
+    width: 250px;
+    height: 250px;
+ }
+ .member p{
+     text-align: center;
+     font-size: 20px;
+     color: seashell
+ }
+ #post{
+     font-weight: 900;
+ }
+h2{
+    text-align: center;
+    margin-top: 15px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 2em;
+}
+h5{
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 2em;
+}
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+.list-inline li {
+  display: inline-block;
+}
+.icon-social {
+  margin: 0 16px;
+  font-size: 50px;
+  color: #e6e6e6;
+  transition: 0.3s;
+}
+.linkedin:hover{
+   color: #0e76a8;
+}
+.facebook-icn:hover{
+  color: #3b5998;
+}
+.facebook-icn{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.insta-icn:hover{
+  color: #e4405f;
+}
+
+
+@media (max-width: 960px) {
+  .container .contact{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-wrap;
+  }
+@media (max-width: 720px) {
+  .container .contact{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-wrap;
+  }
+@media (max-width: 540px) {
+  .container .contact{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-wrap;
+  }
